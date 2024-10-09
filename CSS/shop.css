@@ -1,0 +1,34 @@
+@import url(shophead.css);
+body{
+    background-color: rgb(44, 6, 80);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(50, 50, 80);
+    color: white;
+}
+img{
+    height: 345px;
+    border-radius: 5px;
+}
+.compra{
+  background-color: cyan;
+}
+.compra:hover{
+  background-color: fuchsia;
+}
+.nxtpag{
+  border: solid 2px cyan;
+}
+.nxt{
+  border: solid 2px cyan;
+  border-radius: 5px;
+  background-color: rgb(50, 50, 80)
+}
+.nxt:hover{
+  background-color: fuchsia;
+}
