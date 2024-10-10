@@ -9,7 +9,7 @@
   height: 100px;
 }
 .logoo{
-  height: 100px;
+  height: 100%;
 }
 .searchBox {
   display: flex;
@@ -17,7 +17,6 @@
   justify-content: space-between;
   gap: 8px;
   border:0;
-  border-radius: 10px;
   background: #290221;
   border-radius: 50px;
   position: relative;
@@ -28,8 +27,8 @@
   color: white;
   position: absolute;
   right: 8px;
-  width: 40px;
-  height: 40px;
+  width: 15%;
+  height: 80%;
   border-radius: 50%;
   background:linear-gradient(120deg, cyan, fuchsia);
   border: 0;
