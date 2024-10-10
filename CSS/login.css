@@ -153,3 +153,9 @@ footer{
 .bordeimg {
   border: 3px solid cyan;
 }
+@media (max-width: 576px){
+  .celular{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
