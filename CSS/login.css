@@ -159,3 +159,8 @@ footer{
     flex-direction: column !important;
   }
 }
+@media (min-width: 1400px){
+  main{
+    margin-top: 200px;
+  }
+}
