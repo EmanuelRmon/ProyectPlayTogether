@@ -35,6 +35,13 @@ footer{
   text-decoration: none;
   color: cyan;
 }
+.colorinpu{
+  background-color: #70146D;
+  color: white;
+}
+::placeholder{
+  color: white;
+}
 /* Inicio de sesion */
 .formulario{
   background-color: #290221;
@@ -71,19 +78,19 @@ footer{
   z-index: 9;
 }
 
-.botonRedes:nth-child(3) {
+.botonRedes:nth-child(2) {
   background: linear-gradient(120deg, #02ff2c, #008a12);
 }
 
-.botonRedes:nth-child(4) {
+.botonRedes:nth-child(3) {
   background: rgb(69, 187, 255);
 }
 
-.botonRedes:nth-child(5) {
+.botonRedes:nth-child(4) {
   background: rgb(255, 33, 33);
 }
 
-.botonRedes:nth-child(6) {
+.botonRedes:nth-child(5) {
   background: black;
 }
 
