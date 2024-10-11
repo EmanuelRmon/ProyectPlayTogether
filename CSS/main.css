@@ -12,7 +12,7 @@ body{
     border: solid 3px cyan;
     border-radius: 20px;
 }
-main{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +33,6 @@ main{
 section{
     display: flex;
 }
-.iconos{
+.iconos_man{
    width: 15px;
 }

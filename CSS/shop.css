@@ -11,7 +11,7 @@ body{
     background-color: rgb(50, 50, 80);
     color: white;
 }
-img{
+.objeto{
     height: 345px;
     border-radius: 5px;
 }

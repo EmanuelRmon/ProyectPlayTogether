@@ -3,73 +3,66 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Shop - PlayTogether</title>
+    <link rel="icon" href="/IMAGENES/MAIN_IMG/iconito.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/CSS/shop.css">
   </head>
   <body>
     <header class="sticky-top">
-        <nav class="navbar bordeado navbar-expand-md bg-body-tertiary m-0 p-0">
-          <div class="container-fluid p-2 bg-black">
-            <a class="navbar-brand" href="/HTML/main.html"><img class="logoo"src="/IMAGENES/SHOP/Logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="three collapse gap-1 navbar-collapse" id="navbarSupportedContent">
-              <!--------boton de busqueda------>
-              <div class="searchBox">
-                <input class="bordeB searchInput buscador" type="text" name="" placeholder="Buscar">
-                <button class="botoncito searchButton " href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
-                  <g clip-path="url(#clip0_2_17)">
-                    <g filter="url(#filter0_d_2_17)">
-                      <path d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"></path>
-                    </g>
+      <nav class="navbar bordeado navbar-expand-md bg-body-tertiary m-0 p-0">
+        <div class="container-fluid gap-2 px-2 bg-black">
+          <a class="navbar-brand col-4 col-sm-5 col-md-2 col-lg-2 col-xl-2 col-xxl-2" href="/HTML/main.html"><img class="logotipo" src="/IMAGENES/MAIN_IMG/logos.png" alt=""></a>
+          <button class="navbar-toggler col-md-flex" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse gap-1 navbar-collapse" id="navbarSupportedContent">
+            <!--------boton de busqueda------>
+            <div class="searchBox ultimajoda gap-2 col-sm-5 col-md-4 col-lg-4 col-xl-6 col-xxl-4">
+              <input class="bordeB searchInput col-sm-11 col-md-9 col-lg-9 col-xl-11 col-xxl-11" type="text" name="" placeholder="Buscar">
+              <button class="botoncito searchButton p-0" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="tamaÃ±os" viewBox="0 0 29 29" fill="none">
+                <g clip-path="url(#clip0_2_17)">
+                  <g filter="url(#filter0_d_2_17)">
+                    <path d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"></path>
                   </g>
-                  <defs>
-                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139" height="29.7139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
-                      <feOffset dy="4"></feOffset>
-                      <feGaussianBlur stdDeviation="2"></feGaussianBlur>
-                      <feComposite in2="hardAlpha" operator="out"></feComposite>
-                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
-                      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_17"></feBlend>
-                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17" result="shape"></feBlend>
-                    </filter>
-                    <clipPath id="clip0_2_17">
-                      <rect width="28.0702" height="28.0702" fill="white" transform="translate(0.403503 0.526367)"></rect>
-                    </clipPath>
-                  </defs>
-                </svg>
-                </button>
-              </div>
-              <div>
-                <ul class="navbar-nav me-auto mb-lg-0 p-2 gap-2">
-                  <li class="nav-item dropdown">
-                    <button class="colorsito"><span class="text">NOTICIAS</span></button>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <button class="colorsito colorsito2"><span class="text">COMUNITY <br> CONTENT</span></button>
-                  </li>
-                </ul>
-              </div>
+                </g>
+                <defs>
+                  <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139" height="29.7139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                    <feOffset dy="4"></feOffset>
+                    <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                    <feComposite in2="hardAlpha" operator="out"></feComposite>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_17"></feBlend>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17" result="shape"></feBlend>
+                  </filter>
+                  <clipPath id="clip0_2_17">
+                    <rect width="28.0702" height="28.0702" fill="white" transform="translate(0.403503 0.526367)"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              </button>
             </div>
-  
-            <div class="d-flex gap-3">
-              <a href=""><svg class="iconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="cyan" d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4l0-25.4c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112l0 25.4c0 47.9 13.9 94.6 39.7 134.6L72.3 368C98.1 328 112 281.3 112 233.4l0-25.4c0-61.9 50.1-112 112-112zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"/></svg></a>
-              <a href=""><svg class="iconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="cyan" d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg></a>
-              <a href=""><svg class="iconos"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="cyan" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></a>
+            <div class="d-flex ultimajoda col-sm-5 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <button class="colorsito me-2"><span class="text">NOTICIAS</span></button>
+              <button class="colorsito colorsito2"><span class="text">COMUNITY <br> CONTENT</span></button>
             </div>
-  
           </div>
-        </nav>
+          <div class="d-flex gap-3 align-content-end justify-content-end d-none d-sm-flex col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1">
+            <svg class="iconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="cyan" d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4l0-25.4c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112l0 25.4c0 47.9 13.9 94.6 39.7 134.6L72.3 368C98.1 328 112 281.3 112 233.4l0-25.4c0-61.9 50.1-112 112-112zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"/></svg>
+            <svg class="iconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><a href="/HTML/shop.html"><path fill="cyan" d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></a></svg>
+            <svg class="iconos perfil " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="cyan" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
       <div class="container mt-5">
         <div class="row gap-4 justify-content-center">
             <div class="card col-6 col-lg-3  col-md-5">
-                <img src="/IMAGENES/SHOP/GTA.png" class="card-img-top" alt="...">
+                <img src="/IMAGENES/SHOP/GTA.png" class="objeto card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Grand Theft Auto V: Premium Online Edition <br><h4>70000$ COP</h4></p>
                     <div class="d-grid gap-2">
@@ -78,7 +71,7 @@
                 </div>
             </div>
             <div class="card col-6 col-lg-3  col-md-5">
-                <img src="/IMAGENES/SHOP/Screenshot 2024-10-07 at 7.05.46 pm.png" class="card-img-top" alt="...">
+                <img src="/IMAGENES/SHOP/Screenshot 2024-10-07 at 7.05.46 pm.png" class="objeto card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Funko Pop! 438 Skull Trooper Purple E3 Exclusive <br><h4>89000$ COP</h4></p>
                     <div class="d-grid gap-2">
@@ -87,7 +80,7 @@
                 </div>
             </div>
             <div class="card col-6 col-lg-3  col-md-5">
-                <img src="/IMAGENES/SHOP/gog.png" class="card-img-top" alt="...">
+                <img src="/IMAGENES/SHOP/gog.png" class="objeto card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Marvel's Guardians of the Galaxy Steam Key <br><h4>20000$ COP</h4></p>
                     <div class="d-grid gap-2">
@@ -96,7 +89,7 @@
                 </div>
             </div>
             <div class="card col-6 col-lg-3  col-md-5">
-                <img src="/IMAGENES/SHOP/gow.png" class="card-img-top" alt="...">
+                <img src="/IMAGENES/SHOP/gow.png" class="objeto card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">God of War Ragnarök (PC) Steam Key <br><h4>228000$ COP</h4></p>
                     <div class="d-grid gap-2">
@@ -105,7 +98,7 @@
                 </div>
             </div>
             <div class="card col-6 col-lg-3  col-md-5">
-                <img src="/IMAGENES/SHOP/valp.png" class="card-img-top" alt="...">
+                <img src="/IMAGENES/SHOP/valp.png" class="objeto card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Valorant Gift Card 10 USD - LAS/LAN Server Only <br><h4> 43000$ COP</h4></p>
                     <div class="d-grid gap-2">
@@ -114,7 +107,7 @@
                 </div>
             </div>
             <div class="card col-6 col-lg-3  col-md-5">
-                <img src="/IMAGENES/SHOP/Screenshot 2024-10-07 at 4.39.54 pm.png" class="card-img-top" alt="...">
+                <img src="/IMAGENES/SHOP/Screenshot 2024-10-07 at 4.39.54 pm.png" class="objeto card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Razer DeathAdder Essential Gaming Mouse <br><h4>85000$ COP</h4></p>
                     <div class="d-grid gap-2">
@@ -123,7 +116,7 @@
                 </div>
             </div>
             <div class="card col-6 col-lg-3  col-md-5">
-                <img src="/IMAGENES/SHOP/Screenshot 2024-10-07 at 7.24.45 pm.png" class="card-img-top" alt="...">
+                <img src="/IMAGENES/SHOP/Screenshot 2024-10-07 at 7.24.45 pm.png" class="objeto card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Razer Enki X Essential Gaming Chair All-Day Gaming Comfort <br><h4>1'440000$ COP</h4></p>
                     <div class="d-grid gap-2">
@@ -132,7 +125,7 @@
                 </div>
             </div>
             <div class="card col-6 col-lg-3  col-md-5">
-                <img src="/IMAGENES/SHOP/minecraftshirt.png" class="card-img-top" alt="...">
+                <img src="/IMAGENES/SHOP/minecraftshirt.png" class="objeto card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Minecraft T-Shirt Boys Kids Sprites Characters Short <br><h4>35000$ COP</h4></p>
                     <div class="d-grid gap-2">
@@ -141,7 +134,7 @@
                 </div>
             </div>
             <div class="card col-6 col-lg-3  col-md-5">
-              <img src="/IMAGENES/SHOP/rdr.png" class="card-img-top" alt="...">
+              <img src="/IMAGENES/SHOP/rdr.png" class="objeto card-img-top" alt="...">
               <div class="card-body">
                   <p class="card-text">Red Dead Redemption 2 (PC) Green Gift Key <br><h4>74000$ COP</h4></p>
                   <div class="d-grid gap-2">
