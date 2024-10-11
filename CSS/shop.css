@@ -18,6 +18,13 @@ img{
 .compra{
   background-color: cyan;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: white;
+}
 .compra:hover{
   background-color: fuchsia;
 }
