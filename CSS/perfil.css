@@ -622,3 +622,18 @@ body{
     justify-self: unset;
   }
 } 
+
+@media (max-width:1000px) {
+  .imagenperfil {
+    width: 200px;
+    height: 200px;
+    
+  }
+}
+
+@media (max-width: 600px){
+  .segundaparte {
+    flex-direction: column;
+    align-items: center;
+  }
+}
