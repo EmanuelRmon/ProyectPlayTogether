@@ -212,7 +212,6 @@ body{
 .title {
   font-weight: 900;
   font-size: 1.3em;
-  color: white;
 }
 
 .name {
@@ -386,7 +385,7 @@ body{
   border-bottom: 3px solid cyan;
   font-weight: 700;
   font-size: 13px;
-  color: #ffffff;
+  color: #47484b;
 }
 
 .title::after {
@@ -638,4 +637,3 @@ body{
     align-items: center;
   }
 }
-
