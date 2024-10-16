@@ -7,7 +7,9 @@ body{
 }
 
 
-
+path{
+  color: cyan;
+}
 .container__navbar {
     background-color: black;
     display: felex;
