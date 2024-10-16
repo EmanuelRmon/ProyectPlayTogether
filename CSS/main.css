@@ -1,4 +1,5 @@
 @import url(shophead.css);
+@import url(/CSS/footer.css);
 body{
     background-color: rgb(55, 3, 53);
 }
@@ -15,7 +16,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end ;
     align-content: center;
     flex-direction: column;
 }
@@ -283,11 +284,6 @@ section{
     display: flex;
   }
 
-  .foton card-img-bottom{
-    height: 100px;
-    width: 100px;
-  }
-
   .contenido {
     margin-bottom: 15px;
   }
@@ -295,8 +291,6 @@ section{
   .conten11 {
     width: 510px;
     height: 600px;
-    margin-left: 30px;
-    
   }
 
   .segundo{
@@ -557,4 +551,40 @@ section{
   background-color: cyan;
   color: rgb(4, 3, 3);
   font-weight: 900;
+}
+
+/*-------------------------------media cureris------------------------------------*/
+
+@media(max-width: 576px){
+  main{
+    flex-direction: column;
+    justify-content: center;
+  }
+  conten11 {
+    width: 300px;
+    height: 600px;
+    
+  }
+  .amigos{
+    margin-left: 540px;
+  }
+}
+@media(max-width: 768px)
+{
+  main{
+    flex-direction: column;
+    justify-content: center;
+  }
+  conten11 {
+    width: 300px;
+    height: 600px;
+    margin-right: 50px;
+    
+  }
+  .amigos{
+    margin-right: 120px;
+  }
+}
+@media(max-width: 992px){
+
 }
