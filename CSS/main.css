@@ -1,13 +1,13 @@
 @import url(shophead.css);
 body{
-    background-color: rgb(44, 6, 80);
+    background-color: rgb(55, 3, 53);
 }
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: rgb(50, 50, 80);
+    background-color: black;
     color: white;
     border: solid 3px cyan;
     border-radius: 20px;
@@ -26,6 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: #70146D;
 }
 .foton{
     border-radius: 20px;
@@ -36,7 +37,9 @@ section{
 .iconos_man{
    width: 15px;
 }
-/* From Uiverse.io by Yaya12085 */ 
+
+
+/* --------------------amigos-------------------------- */ 
 .plan {
     border-radius: 16px;
     box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
@@ -297,6 +300,9 @@ section{
   }
 
   .segundo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
     border: solid 3px cyan;
     border-radius: 33px;
     height: 120px;
@@ -304,6 +310,7 @@ section{
     width: 450px;
     margin-top: 15px;
     height: 150px;
+    background-color: #70146D;;
   }
 
   .cs{
@@ -313,6 +320,7 @@ section{
   .tercero{
     border: solid 3px cyan;
     border-radius: 33px;
+    background-color: #70146D;;
 
   margin-bottom: 20px;
   }
